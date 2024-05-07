@@ -83,7 +83,7 @@ function install_node() {
     rm -rf babylon
     git clone https://github.com/babylonchain/babylon
     cd babylon
-    git checkout v0.8.4
+    git checkout v0.8.5
     make install
 
     read -p "请输入你想设置的节点名称: " MONIKER
